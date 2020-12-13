@@ -1,0 +1,47 @@
+:root{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+    background-image: url(voi.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 0 20px;
+}
+li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li:last-child a{
+    color: rgb(100, 100, 100);
+    padding: 20px;
+    border: 1px solid rgb(109, 231, 225) ;
+}
+ul li:last-child a{
+    background-color: azure;
+    color: palegreen;
+    border-color: azure;
+    transition: all linear 0.3ms;
+}
+.main{
+    padding: 200px 0;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 40px ;
+}
+input{
+    
+}

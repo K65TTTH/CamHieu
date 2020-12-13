@@ -1,0 +1,47 @@
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: block;
+    text-decoration:none;
+    color: black;
+    padding: 10px 50px 10px 10px;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px 10px 10px;
+    background-color: aquamarine;
+}
+li a:hover{
+    color: red;
+    background-color: azure;
+    border-left: 2px solid red;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+.parent-menu{
+    position: relative;
+}
+.parent-menu:hover .sub-menu{
+    display: block;
+}
+header{
+    display: flex;
+    background-color: orange;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.logo a img{
+    width: 40px;
+}
