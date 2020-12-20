@@ -1,0 +1,129 @@
+body{
+    color:rgb(75, 73, 73);
+}
+
+.text::first-letter{
+    color: lightseagreen;
+}
+
+.header{
+    text-align: right;
+    margin-top: 50px;
+
+}
+
+    
+h1{
+    font-size: 50px;
+}
+
+.box{
+    margin: 15px 150px;
+}
+
+ul{
+    margin-top: -100px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.test{
+    font-weight: bold;
+    margin-right: -20px;
+}
+
+ul :last-child{
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+h2::before{
+    content: '';
+    border-top: 4px solid greenyellow;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+   color:dodgerblue;
+}
+
+.gallery_item{
+    background-color: rgb(46, 45, 49);
+}
+
+.gallery_item p{
+    color: linen;
+    padding-left: 5%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 70px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer{
+    display: flex;
+}
+
+article{
+    text-align: center;
+}
+.price{
+    display: flex;
+    
+}
+
+span{
+    background-color: rgb(105, 105, 105);
+    color: mistyrose;
+    text-align: left;
+    width: 20%;
+    margin: -4px 0px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price p{
+    width: 80%;
+}
+
+h5{
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+}
+
+h5::after{
+    content: "";
+    border-top: 3px solid lightseagreen;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+

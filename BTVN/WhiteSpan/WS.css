@@ -1,47 +1,82 @@
-:root{
+:root {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-section{
+
+section {
     background-image: url(voi.jpg);
     background-size: cover;
 }
-header{
+
+header {
     display: flex;
     padding: 20px 60px;
     justify-content: space-between;
     border-bottom: 1px solid white;
 }
-ul{
+
+body{
+    margin: 0;
+}
+
+ul {
     display: flex;
     list-style: none;
 }
-li{
+
+li {
     padding: 0 20px;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: azure;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-ul li:last-child a{
+
+ul li:last-child a {
     color: rgb(100, 100, 100);
     padding: 20px;
-    border: 1px solid rgb(109, 231, 225) ;
+    border: 1px solid rgb(109, 231, 225);
 }
-ul li:last-child a{
+
+ul li:last-child a {
     background-color: azure;
     color: palegreen;
     border-color: azure;
     transition: all linear 0.3ms;
 }
-.main{
+
+.main {
     padding: 200px 0;
     width: 100%;
     text-align: center;
 }
-h1{
-    font-size: 40px ;
+
+h1 {
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
 }
 input{
+    margin: 10px 0;
+    padding: 10px;
+    border: gray;
+    border-radius: 30px;
+    outline: none;
+}
+input:nth-child(2){
+    margin-bottom: 30px;
+}
+button{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
     
 }
+
+
