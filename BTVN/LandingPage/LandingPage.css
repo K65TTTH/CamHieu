@@ -1,1 +1,60 @@
+body{
+    background: url(//cdn.clemensotto.com/codepen/img/blurred-bg1.jpg);
+    background-size: cover;
+}
 
+.top{
+    text-align: center;
+    color: white;
+    border: 0px solid rgb(12, 12, 56);
+    background-color: rgb(12, 12, 56);
+    margin: 50px 100px 40px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 80px;
+    padding-top: 70px;
+    margin-bottom: 20px;
+    text-shadow: 0px 5px 10px rgb(168, 167, 163);
+}
+
+.B3T{
+    border: 0;
+    background-color: rgb(241, 134, 40);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.B3T h4{
+    margin: -2px 2px;
+}
+
+.star{
+    padding: 50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+.bot{
+    border: 0;
+    background-color: rgb(233, 233, 233);
+    margin: 50px 100px 40px;
+    border-radius: 5px;
+    display: flex;
+}
+
+img{
+    size: 10px 10px;    
+}

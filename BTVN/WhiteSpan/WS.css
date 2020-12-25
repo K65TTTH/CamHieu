@@ -18,36 +18,39 @@ body{
     margin: 0;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
 }
 
-li {
+header li:hover{
+    color: black;
+    background: cyan;
+    padding: 20px;
+    text-align: center;
+}
+
+header li {
     padding: 0 20px;
 }
 
-li a {
+header li a {
     text-decoration: none;
     color: azure;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-ul li:last-child a {
-    color: rgb(100, 100, 100);
-    padding: 20px;
-    border: 1px solid rgb(109, 231, 225);
-}
-
-ul li:last-child a {
+header ul li:last-child a {
     background-color: azure;
-    color: palegreen;
+    color: rgb(16, 20, 16);
     border-color: azure;
     transition: all linear 0.3ms;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .main {
-    padding: 200px 0;
+    padding: 150px 0;
     width: 100%;
     text-align: center;
 }
@@ -75,8 +78,22 @@ input:nth-child(2){
 button{
     margin: 10px;
     border-radius: 20px;
-    padding: 5px;
-    
+    padding: 6px;  
+    cursor: pointer;
+    font-size: 15px; 
 }
 
+.ps{
+    background-color: rgb(12, 5, 77);
+    color: white; 
+    display: flex;
+} 
 
+.left{
+    width: 50%;
+    margin-left: 200px;
+}
+
+.right{
+    width: 50%;
+}

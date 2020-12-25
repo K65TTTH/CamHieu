@@ -71,7 +71,16 @@ header a:hover{
 
 .gallery_item p{
     color: linen;
-    padding-left: 5%;
+    margin-top: -4px;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding: 12px;
+    width: 80%;
+}
+
+.gallery_item p:hover{
+    background-color: cyan;
+    color: black;
 }
 
 .gallery{
@@ -87,11 +96,9 @@ header a:hover{
 
 .footer{
     display: flex;
+    padding: 30px;
 }
 
-article{
-    text-align: center;
-}
 .price{
     display: flex;
     
@@ -100,21 +107,16 @@ article{
 span{
     background-color: rgb(105, 105, 105);
     color: mistyrose;
-    text-align: left;
     width: 20%;
-    margin: -4px 0px 0px 0px;
+    margin-top: -4px;
     text-align: center;
-    padding-top: 20px;
-}
-
-.price p{
-    width: 80%;
+    padding-top: 12px;
 }
 
 h5{
     font-size: 20px;
     position: relative;
-    text-align: left;
+    margin-left: 40px;
 }
 
 h5::after{
@@ -126,4 +128,18 @@ h5::after{
     bottom: -4px;
 }
 
+.footer p{
+    margin-left: 40px;
+}
+
+.ad{
+    text-align: center;
+}
+
+.loadmore{
+    background-color:turquoise;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 40px;
+}
 
