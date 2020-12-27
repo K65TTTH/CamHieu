@@ -1,6 +1,6 @@
 body{
     background: url(//cdn.clemensotto.com/codepen/img/blurred-bg1.jpg);
-    background-size: cover;
+
 }
 
 .top{
@@ -55,6 +55,90 @@ h2{
     display: flex;
 }
 
-img{
-    size: 10px 10px;    
+.big{
+    display: flex;
 }
+
+.pic{
+    width: 35%;
+    margin: 25px 25px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.introduce{
+    width: 65%;
+    border: 1px solid rgb(172, 172, 172);
+    margin: 20px 20px 45px 20px;
+    border-radius: 5px;
+}
+
+.LPTT{
+    border-bottom: 1px solid  rgb(172, 172, 172);
+}
+
+h5{
+    font-size: 30px;
+    margin: 20px 30px;
+}
+
+.text{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin: -16px 0 0px 0px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+ul:first-child{
+    padding-top: 45px;
+}
+
+ul:last-child{
+    padding-bottom: 30px;
+}
+
+ul li{
+    padding: 0 0 20px 10px;
+}
+
+.more{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.download{
+    background-color: rgb(8, 140, 228);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: -20px 10px 0 20px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+
+.download a{
+    color: black;
+}
+
+.button button{
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-top: -20px;
+    font-size: 18px;
+    border-color: rgb(175, 175, 175);
+    border-width: 1px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
