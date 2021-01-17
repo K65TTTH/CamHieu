@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 50px;
+    margin: auto 30px;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+input{
+    margin-top: 12px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    outline: none;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header li{
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: darkviolet;
+}

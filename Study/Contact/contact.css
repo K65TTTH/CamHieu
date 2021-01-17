@@ -1,0 +1,31 @@
+.page{
+    width: 100%;
+
+}
+
+.contact{
+    width: 70%;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 50px 60px 50px 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(21, 126, 7);
+    margin: auto 0px;
+}
+
+a:hover{
+    color: rgb(151, 196, 27);
+}
